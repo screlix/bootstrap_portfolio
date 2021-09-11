@@ -1,0 +1,343 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background: url("../img/banner/home-banner.png") no-repeat;
+  font-family: Poppins;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+nav ul li {
+  color: black;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+header {
+  margin: auto;
+  margin-bottom: 130px;
+  z-index: 1000;
+}
+
+header img {
+  -webkit-box-flex: 0.8;
+      -ms-flex: 0.8;
+          flex: 0.8;
+}
+
+/* #4B56DE */
+#SERVICES {
+  margin-top: 20%;
+  margin-bottom: 5%;
+}
+
+section:nth-of-type(1) h1 {
+  font-size: 60px;
+}
+
+section:nth-of-type(1) h2 {
+  margin-top: 80px;
+  font-size: 30px;
+}
+
+section:nth-of-type(1) hr {
+  border-color: black;
+  border-width: 2px;
+  -webkit-transform: translate(100px, -19px);
+          transform: translate(100px, -19px);
+  margin: 0%;
+}
+
+section:nth-of-type(1) p {
+  font-size: 18px;
+}
+
+section:nth-of-type(1) button:nth-of-type(1) {
+  border: #404ad7 2px solid;
+  background: white;
+  font-weight: 400;
+}
+
+section:nth-of-type(1) button:nth-of-type(1):hover {
+  background: -webkit-gradient(linear, left top, right top, from(#404ad7), to(#8655e8));
+  background: linear-gradient(to right, #404ad7, #8655e8);
+  color: white;
+}
+
+section:nth-of-type(1) button:nth-of-type(2) {
+  border: #1824c4 2px solid;
+  color: white;
+  background: -webkit-gradient(linear, left top, right top, from(#404ad7), to(#8655e8));
+  background: linear-gradient(to right, #404ad7, #8655e8);
+}
+
+section:nth-of-type(1) button:nth-of-type(2):hover {
+  background: white;
+  color: black;
+}
+
+section:nth-of-type(2) {
+  /* margin-bottom: 17%; */
+  height: 100vh;
+}
+
+section:nth-of-type(2) h1 {
+  letter-spacing: 10px;
+  word-spacing: 1px;
+}
+
+section:nth-of-type(2) p {
+  font-size: 14.3px;
+}
+
+section:nth-of-type(2) button {
+  border: #1824c4 2px solid;
+  background: -webkit-gradient(linear, left top, right top, from(#404ad7), to(#8857eb));
+  background: linear-gradient(to right, #404ad7, #8857eb);
+  color: white;
+}
+
+section:nth-of-type(2) button:hover {
+  background: white;
+  color: black;
+}
+
+section:nth-of-type(2) img {
+  margin-left: 10%;
+}
+
+section:nth-of-type(3) {
+  margin-bottom: 15vh;
+  margin-bottom: 100px;
+}
+
+section:nth-of-type(3) span {
+  width: 140px;
+  height: 80px;
+  display: inline;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+section:nth-of-type(3) div:nth-of-type(1) {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+}
+
+section:nth-of-type(3) div:nth-of-type(1) span {
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+section:nth-of-type(3) div:nth-of-type(1) img {
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+section:nth-of-type(3) div:nth-of-type(2) {
+  background: #fdf6f8;
+}
+
+section:nth-of-type(3) div:nth-of-type(2) img {
+  -webkit-transform: translate(-80px, 20px);
+          transform: translate(-80px, 20px);
+}
+
+section:nth-of-type(3) div:nth-of-type(2) strong {
+  color: #864df1;
+  font-size: 70px;
+}
+
+section:nth-of-type(3) div:nth-of-type(2) i {
+  color: black;
+  font-size: 30px;
+}
+
+section:nth-of-type(3) div:nth-of-type(2) article:nth-of-type(1) {
+  -webkit-transform: translate(-70px, 45px);
+          transform: translate(-70px, 45px);
+}
+
+section:nth-of-type(3) div:nth-of-type(2) article:last-child {
+  width: 150px;
+  margin-top: 45%;
+}
+
+section:nth-of-type(3) div:nth-of-type(2) article:last-child label {
+  color: blue;
+}
+
+.liko {
+  margin-bottom: 150px;
+}
+
+.liko h2 {
+  font-size: 28px;
+}
+
+section:nth-of-type(4) {
+  margin-bottom: 150px;
+}
+
+section:nth-of-type(4) .card-image {
+  width: 100px;
+}
+
+section:nth-of-type(4) .card {
+  border: none;
+}
+
+section:nth-of-type(4) .card p {
+  font-size: 13px;
+}
+
+section:nth-of-type(4) .card h5 {
+  font-size: 18px;
+}
+
+section:nth-of-type(4) div {
+  background-color: #f9fcfe;
+  width: 23%;
+}
+
+section:nth-of-type(4) .card:hover {
+  -webkit-filter: drop-shadow(1px 1px 15px #e1dfdf);
+          filter: drop-shadow(1px 1px 15px #e1dfdf);
+}
+
+section:nth-of-type(5) {
+  margin-bottom: 200px;
+}
+
+section:nth-of-type(5) .card {
+  border: none;
+  -webkit-transition: all 1;
+  transition: all 1;
+}
+
+section:nth-of-type(5) h4 {
+  font-size: 20px;
+}
+
+section:nth-of-type(5) .card-img-top {
+  -webkit-filter: brightness(0.9);
+          filter: brightness(0.9);
+  -webkit-transition: all 1;
+  transition: all 1;
+}
+
+section:nth-of-type(5) .card-img-top:hover {
+  -webkit-filter: brightness(1.06) drop-shadow(1px 1px 15px #b5b2b2);
+          filter: brightness(1.06) drop-shadow(1px 1px 15px #b5b2b2);
+}
+
+section:nth-of-type(6) .card-horizontal {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+section:nth-of-type(6) .card {
+  border: none;
+  -webkit-filter: drop-shadow(0px 0px 10px #dcd9d9);
+          filter: drop-shadow(0px 0px 10px #dcd9d9);
+}
+
+section:nth-of-type(6) .card-img {
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+section:nth-of-type(6) p {
+  font-size: 15px;
+  line-height: 1.3rem;
+}
+
+section:nth-of-type(6) button {
+  color: black;
+}
+
+section:nth-of-type(6) .slick-dots li button:before {
+  color: #7b3dee !important;
+  font-family: "slick";
+  font-size: 15px;
+}
+
+.heream {
+  font-weight: 600;
+  font-size: 30px;
+}
+
+.lastone {
+  margin-top: 20%;
+  height: 55vh;
+  margin-bottom: 10%;
+}
+
+.lastone div {
+  background-image: url("../img/subscribe.png");
+  background-size: cover;
+}
+
+.lastone div h6 {
+  color: white;
+}
+
+.lastone div h4 {
+  margin-top: 15%;
+  color: white;
+}
+
+.lastone div input {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  background: transparent;
+  border-color: white;
+  outline: none;
+  color: white;
+}
+
+.lastone div ::-webkit-input-placeholder {
+  color: white;
+}
+
+.lastone div :-ms-input-placeholder {
+  color: white;
+}
+
+.lastone div ::-ms-input-placeholder {
+  color: white;
+}
+
+.lastone div ::placeholder {
+  color: white;
+}
+
+.lastone div button {
+  background: white;
+}
+
+.container section:last-child li {
+  font-size: 26px;
+}
+
+.container section:last-child li:hover {
+  color: #7b3dee;
+}
+
+.container section:last-child div {
+  background: black;
+  width: 100%;
+}
+/*# sourceMappingURL=style.css.map */

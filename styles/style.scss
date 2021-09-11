@@ -1,0 +1,270 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: url("../img/banner/home-banner.png") no-repeat;
+  // background-size: contain;
+  font-family: Poppins;
+}
+html {
+  scroll-behavior: smooth;
+}
+//#864df1
+nav ul li {
+  color: black;
+  font-size: 18px;
+  font-weight: 500;
+}
+header {
+  margin: auto;
+  margin-bottom: 130px;
+  z-index: 1000;
+  img {
+    flex: 0.8;
+  }
+}
+/* #4B56DE */
+#SERVICES {
+  margin-top: 20%;
+  margin-bottom: 5%;
+}
+section:nth-of-type(1) {
+  // margin-bottom: 13%;
+  h1 {
+    font-size: 60px;
+  }
+  h2 {
+    margin-top: 80px;
+    font-size: 30px;
+  }
+  hr {
+    border-color: black;
+    border-width: 2px;
+    transform: translate(100px, -19px);
+    margin: 0%;
+  }
+  p {
+    font-size: 18px;
+    // width: 200px;
+  }
+  button:nth-of-type(1) {
+    border: #404ad7 2px solid;
+    background: white;
+    font-weight: 400;
+    &:hover {
+      background: linear-gradient(to right, #404ad7, #8655e8);
+      color: white;
+    }
+  }
+  button:nth-of-type(2) {
+    border: #1824c4 2px solid;
+    color: white;
+    background: linear-gradient(to right, #404ad7, #8655e8);
+    &:hover {
+      background: white;
+      color: black;
+    }
+  }
+}
+section:nth-of-type(2) {
+  /* margin-bottom: 17%; */
+
+  height: 100vh;
+  div {
+    // margin-right: 100px;
+  }
+  h1 {
+    letter-spacing: 10px;
+    word-spacing: 1px;
+  }
+  p {
+    font-size: 14.3px;
+  }
+  button {
+    border: #1824c4 2px solid;
+    background: linear-gradient(to right, #404ad7, #8857eb);
+    color: white;
+    &:hover {
+      background: white;
+      color: black;
+    }
+  }
+  img {
+    margin-left: 10%;
+  }
+}
+section:nth-of-type(3) {
+  margin-bottom: 15vh;
+  span {
+    width: 140px;
+    height: 80px;
+    display: inline;
+    flex-wrap: wrap;
+  }
+  div:nth-of-type(1) {
+    flex-wrap: wrap;
+    justify-content: start;
+
+    span {
+      transition: all 0.2s;
+    }
+    img {
+      transition: all 0.2s;
+    }
+  }
+
+  div:nth-of-type(2) {
+    background: #fdf6f8;
+    // height: 550px;
+  }
+  margin-bottom: 100px;
+  div:nth-of-type(2) {
+    img {
+      transform: translate(-80px, 20px);
+    }
+    strong {
+      color: #864df1;
+      font-size: 70px;
+    }
+    i {
+      color: black;
+      font-size: 30px;
+    }
+    article:nth-of-type(1) {
+      transform: translate(-70px, 45px);
+    }
+    article:last-child {
+      width: 150px;
+      margin-top: 45%;
+      label {
+        color: blue;
+      }
+    }
+  }
+}
+.liko {
+  h2 {
+    font-size: 28px;
+  }
+  margin-bottom: 150px;
+}
+section:nth-of-type(4) {
+  margin-bottom: 150px;
+  // flex-wrap: wrap;
+
+  .card-image {
+    // object-fit: contain;
+    width: 100px;
+  }
+  .card {
+    border: none;
+    p {
+      font-size: 13px;
+    }
+    h5 {
+      font-size: 18px;
+    }
+  }
+  div {
+    background-color: #f9fcfe;
+    width: 23%;
+  }
+
+  .card:hover {
+    filter: drop-shadow(1px 1px 15px rgb(225, 223, 223));
+  }
+}
+section:nth-of-type(5) {
+  margin-bottom: 200px;
+  .card {
+    border: none;
+    transition: all 1;
+  }
+  h4 {
+    font-size: 20px;
+  }
+  .card-img-top {
+    filter: brightness(0.9);
+    transition: all 1;
+    &:hover {
+      filter: brightness(1.06) drop-shadow(1px 1px 15px rgb(181, 178, 178));
+    }
+  }
+}
+section:nth-of-type(6) {
+  .card-horizontal {
+    display: flex;
+    // flex: 1 1 auto;
+  }
+  .card {
+    border: none;
+    filter: drop-shadow(0px 0px 10px rgb(220, 217, 217));
+  }
+  .card-img {
+    object-fit: contain;
+  }
+  p {
+    font-size: 15px;
+    line-height: 1.3rem;
+  }
+  button {
+    color: black;
+  }
+  .slick-dots li button:before {
+    color: #7b3dee !important;
+    font-family: "slick";
+    font-size: 15px;
+  }
+}
+.heream {
+  font-weight: 600;
+  font-size: 30px;
+}
+.meme {
+  // margin-bottom: 100px;
+}
+// #864DF1
+// #4F56DF
+.lastone {
+  margin-top: 20%;
+  height: 55vh;
+  div {
+    background-image: url("../img/subscribe.png");
+    background-size: cover;
+    h6 {
+      color: white;
+    }
+    h4 {
+      margin-top: 15%;
+      color: white;
+    }
+    input {
+      appearance: none;
+      background: transparent;
+      border-color: white;
+      outline: none;
+      color: white;
+    }
+    ::placeholder {
+      color: white;
+    }
+    button {
+      background: white;
+    }
+  }
+  margin-bottom: 10%;
+}
+.container section:last-child {
+  li {
+    font-size: 26px;
+  }
+  li:hover {
+    color: #7b3dee;
+  }
+  div {
+    background: black;
+    width: 100%;
+  }
+}
